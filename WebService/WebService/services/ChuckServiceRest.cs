@@ -15,11 +15,7 @@ namespace WebService.services
             var result = await client.GetStringAsync(new Uri("https://api.chucknorris.io/jokes/random"));
             Console.WriteLine(result);
             var jokes = JsonConvert.DeserializeObject<List<Joke>>("["+result+"]");
-            foreach (var item in jokes)
-            {
-                Console.WriteLine("toto="+item.Value);
-            }
-            client.Dispose();
+            //client.Dispose();
             return jokes;
         }
     }
