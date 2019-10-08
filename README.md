@@ -7,7 +7,15 @@ Au lancement de l'application, elle ira chercher une citation au hasard sur chuc
 
 @Auteur: Johann Brochier - 2019
 
+Packages Nugets :
 
+- Newtonsoft.Json 12.0.2
+
+- Xamarin.Essentials 1.3.1
+
+- Xamarin.Forms 4.2.0.848062
+
+  
 
 WebService utilise l'API Rest de ChuckNorris.io
 
